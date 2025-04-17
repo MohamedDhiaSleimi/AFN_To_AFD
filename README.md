@@ -7,7 +7,7 @@ this is a simple python script for converting a Nondeterministic Finite Automato
 ```
 
 ## help ouput
-
+```sh
 usage: automate_conversion.py [-h] [-i INPUT] [-o OUTPUT] [-d] [--debug-output DEBUG_OUTPUT] [--initial INITIAL]
                               [--final FINAL [FINAL ...]] [--example]
 
@@ -26,3 +26,4 @@ options:
   --final FINAL [FINAL ...]
                         Final states for the AFN
   --example             Use the built-in example AFN
+```
